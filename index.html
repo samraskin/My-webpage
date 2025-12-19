@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Sam Raskin</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@225&display=swap" rel="stylesheet">
+<style>
+h1 {
+  font-family: "Georgia", serif; font-size: 32px
+}
+
+h4 {
+  font-size: 10px; font-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: "Georgia", serif;
+}
+
+a {
+  color: #0f4d92; font-family: "Montserrat", sans-serif; 
+}
+
+a.normal-link {
+  color: #0f4d92; font-family: "Georgia", serif;
+}
+
+ /* Header styles */
+      .header {
+        background-color: white;
+        color: #0f4d92;
+        height: 60px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+      }
+
+      /* Navigation links styles */
+      
+      .nav-links {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav-links li {
+        margin-right: 10px;
+      }
+
+      .nav-links a {
+        color: #0f4d92;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: color 0.3s ease;
+        font-size: 18px;
+      }
+
+      .nav-links a:hover {
+        color: #ccc;
+      }
+</style>
+</head>
+
+  <body>
+    <header class="header">
+      </p>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#papers">Papers</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="CV.pdf">CV</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+
+
+<div style="width: 50%;">
+  <div style="display: flex; align-items: flex-start;">
+	<div style="margin-top: -22px;">
+    <h1>Sam Raskin</h1>
+    <p>
+      Yale University
+      <br>Department of Mathematics
+      <br>219 Prospect St
+      <br>New Haven, CT 06511
+      <br>sam.raskin@yale.edu
+    </p>
+  </div>
+    <div style="margin-left: auto;">
+    <img src="./me.jpg" width="225" height="300"> 
+  </div>
+</div>
+</div>
+
+</tr></tbody></table>
+
+	<script>
+		const page1Btn = document.querySelector("#page1-btn");
+		const page2Btn = document.querySelector("#page2-btn");
+		const page1 = document.querySelector("#page1");
+		const page2 = document.querySelector("#page2");
+
+		page1Btn.addEventListener("click", function() {
+			page1.classList.add("active");
+			page2.classList.remove("active");
+		});
+
+		page2Btn.addEventListener("click", function() {
+			page2.classList.add("active");
+			page1.classList.remove("active");
+		});
+	</script>
+
+<br>
+
+<div class="w3-container w3-light-gray"  style="max-width:905px" id="page1" class = active>
+
+<p> 
+I am a professor in the mathematics department
+at Yale studying representation theory and
+algebraic geometry. My office is KT 719.
+</p>
+
+</div>
+
+<p>
+
+</p><p> Here is my <a href="./CV.pdf" class = "normal-link"">CV</a>.
+
+<div class="w3-container w3-light-gray"  style="max-width:905px" id="papers" class = active>
+
+</p><h2>Papers and Preprints</h2>
+
+<p> Conjectures of Arthur and Ramanujan for unramified automorphic forms:
+announcement <a href = "./icm.pdf">[pdf]</a>
+
+<p> Geometric Langlands in positive characteristic from characteristic zero 
+(joint with Dennis Gaitsgory) <a href = "https://www.laumonvolume.fr/_files/ugd/71c40f_2066709e648f4408b42a6ad274a9cc7b.pdf">
+[pdf]</a>
+
+<p> GLC III: Compatibility with parabolic induction
+(joint with Justin Campbell, 
+Lin Chen, and Dennis Gaitsgory, with appendices joint
+with Justin Campbell, Lin Chen, Joakim F<span>&#230;</span>rgeman, 
+Dennis Gaitsgory, Kevin Lin, and Nick Rozenblyum)
+<a href = "https://people.mpim-bonn.mpg.de/gaitsgde/GLC/Eis.pdf">
+[pdf]</a>
+
+<p> GLC II: Kac-Moody localization and the FLE
+(joint with Dima Arinkin, Dario Beraldo, 
+Lin Chen, Joakim F<span>&#230;</span>rgeman,
+Dennis Gaitsgory, Kevin Lin, and Nick Rozenblyum, with appendices joint
+with Justin Campbell, Lin Chen, Dennis Gaitsgory, Kevin Lin, and Nick Rozenblyum)
+<a href = "https://people.mpim-bonn.mpg.de/gaitsgde/GLC/Loc.pdf">
+[pdf]</a>
+
+<p> GLC V: The multiplicity one theorem
+(joint with Dennis Gaitsgory)
+<a href = "https://people.mpim-bonn.mpg.de/gaitsgde/GLC/multone.pdf">
+[pdf]</a>
+
+<p> An arithmetic application of geometric Langlands 
+<a href = "./springer.pdf">[pdf]</a>
+
+<p> GLC IV: Ambidexterity
+(joint with Dima Arinkin, Dario Beraldo, Lin Chen, Joakim F<span>&#230;</span>rgeman,
+Dennis Gaitsgory, Kevin Lin, and Nick Rozenblyum)
+<a href = "https://people.mpim-bonn.mpg.de/gaitsgde/GLC/ambidex.pdf">
+[pdf]</a>
+
+<p> GLC I: Construction of the functor
+(joint with Dennis Gaitsgory)
+<a href = "https://people.mpim-bonn.mpg.de/gaitsgde/GLC/functor.pdf">
+[pdf]</a>
+
+<p> Langlands duality on the Beilinson-Drinfeld Grassmannian
+(joint with Justin Campbell)
+<a href = "https://drive.google.com/file/d/1WFEkSXs1i3RYBk3bZKcox9AatjlMOheL/view">
+[pdf]</a>
+
+<p> Affine Beilinson-Bernstein localization at the critical level 
+(joint with David Yang)
+<a href = "https://arxiv.org/pdf/2203.13885.pdf">[pdf]</a>
+
+<p> Non-vanishing of geometric Whittaker coefficients for reductive groups
+(joint with Joakim F<span>&#230;</span>rgeman)
+<a href = "./coeffs.pdf">[pdf]</a>
+
+<p> Coulomb branches of noncotangent type 
+(joint with Sasha Braverman, Gurbir Dhillon, Misha Finkelberg, and Roman Travkin)
+<a href = "https://arxiv.org/pdf/2201.09475.pdf">[pdf]</a>
+
+<p> The Arinkin-Gaitsgory temperedness conjecture 
+(joint with Joakim F<span>&#230;</span>rgeman)
+<a href = "./independence.pdf">[pdf]</a>
+
+<p> Tate's thesis in the de Rham setting 
+(joint with Justin Hilburn)
+<a href = "./tate.pdf">[pdf]</a>
+
+<p>  Exceptional loci in Lefschetz theory 
+(joint with Geoffrey Smith)
+<a href = "https://arxiv.org/pdf/2106.10332.pdf">[pdf]</a>
+
+<p>  Automorphic functions as the trace of Frobenius
+  <br>
+(joint with
+Dima Arinkin, David Kazhdan,
+Dennis Gaitsgory, Nick Rozenblyum, and Yakov Varshavsky)
+<a href = "https://arxiv.org/pdf/2102.07906.pdf">[pdf]</a>
+
+<p>  Duality for automorphic sheaves with nilpotent singular support
+  <br>
+(joint with
+Dima Arinkin, David Kazhdan,
+Dennis Gaitsgory, Nick Rozenblyum, and Yakov Varshavsky)
+<a href = "https://arxiv.org/pdf/2012.07665.pdf">[pdf]</a>
+
+<p>  Localization for affine W-algebras 
+(joint with Gurbir Dhillon)
+<a href = "./wloc.pdf">[pdf]</a>
+
+<p>  Projective generation for equivariant
+D-modules 
+(joint with Gwyn Bellamy and Sam Gunningham)
+<a href = "https://arxiv.org/pdf/1905.05073.pdf">[pdf]</a>
+
+<p>  The stack of local
+systems with restricted variation and
+geometric Langlands theory with nilpotent
+singular support  <br>
+(joint with
+Dima Arinkin, David Kazhdan,
+Dennis Gaitsgory, Nick Rozenblyum, and Yakov Varshavsky)
+<a href = "https://arxiv.org/pdf/2010.01906.pdf">[pdf]</a>
+
+<p>  Fundamental local equivalences in quantum geometric Langlands 
+(joint with Justin Campbell and Gurbir Dhillon)
+<a href = "https://arxiv.org/pdf/1907.03204.pdf">[pdf]</a>
+
+<p>  Affine Beilinson-Bernstein localization at the critical level for GL<sub>2</sub> 
+<a href = "./localization.pdf">[pdf]</a>
+
+
+<p>  Homological methods in semi-infinite contexts
+<a href = "./topalg.pdf">[pdf]</a>
+
+<p>  On the Dundas-Goodwillie-McCarthy theorem
+<a href = "./k.pdf">[pdf]</a>
+
+<p>  W-algebras and Whittaker categories
+<a href = "./whit.pdf">[pdf]</a>
+
+<p>  A generalization of the b-function lemma 
+<a href = "./b-function.pdf">[pdf]</a>
+
+<p>  Chiral principal series categories II: the factorizable Whittaker category
+<a href="./cpsii.pdf">[pdf]</a>
+
+<p>  Acyclic complexes and 1-affineness 
+(joint with Dennis Gaitsgory)
+<a href = "./Ainfty.pdf">[pdf]</a>
+
+<p>  On the notion of spectral decomposition in local geometric Langlands 
+<a href = "./locsys.pdf">[pdf]</a>
+
+<p>  Chiral principal series categories I: finite-dimensional calculations
+<a href="./cpsi.pdf">[pdf]</a>
+
+<p>  Chiral categories 
+<a href="./chiralcats.pdf">[pdf]</a>
+
+<p>  D-modules on infinite dimensional varieties 
+<a href="./dmod.pdf">[pdf]</a>
+
+<p>  Coherent sheaves on formal complete intersections via DG Lie algebras
+<a href="http://intlpress.com/site/pub/files/_fulltext/journals/mrl/2014/0021/0001/MRL-2014-0021-0001-a016.pdf">[pdf]</a>
+
+<p>  A geometric proof of the Feigin-Frenkel theorem
+<a href="http://www.ams.org/journals/ert/2012-16-13/S1088-4165-2012-00417-4/S1088-4165-2012-00417-4.pdf">[pdf]</a>
+
+</p><h2>Course notes</h2>
+
+<p>  Algebraic geometry (notes by Arun Debray)
+<a href = "https://web.ma.utexas.edu/users/a.debray/lecture_notes/m392c_Raskin_AG_notes.pdf">[pdf]</a>
+
+<p>  Class field theory (notes by Oron Propp) 
+<a href="./cft/notes.pdf">[pdf]</a>
+
+<p>  Arithmetic of quadratic forms 
+<a href="./forms.pdf">[pdf]</a>
+
+<p>  Representation theory of finite groups 
+<a href="./repsfinitegps.pdf">[pdf]</a>
+
+</div>
+
+<div class="w3-container w3-light-gray"  style="max-width:905px" id="teaching" class = active>
+
+</p><h2>Teaching</h2>
+
+<a href="./cft/index.html" class = normal-link>18.786 Course page</a></p>
+<a href="./408L/index.html" class = normal-link>M 408L Spring 2020 Course page</a>
+
+</p>
+
+</p>
+
+</div>
+
+</p><h2>TAGS 2019</h2>
+
+<a href="./tags/index.html" class = normal-link>Homepage</a>
+
+</p>
